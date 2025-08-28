@@ -1,45 +1,37 @@
-<div align="center" style="background-color: white;">
-	<br>
-	<a href="https://zadig-et-voltaire.com/">
-		<img src="https://design-system.zadig-et-voltaire.com/logos/logo.svg" width="400" height="100" alt="Click to see the source">
-	</a>
-	<br>
-</div>
-
-# Nuxt GTM
+# Nuxt GTM (zadigetvoltaire/nuxt-gtm - Nuxt 4 compatible)
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-> Nuxt Google Tag Manager module integrated with the [Nuxt Devtools](https://github.com/nuxt/devtools) for Nuxt 3.
+> Nuxt Google Tag Manager module integrated with the [Nuxt Devtools](https://github.com/nuxt/devtools) for Nuxt 4.
 >
-> This library is an Nuxt 3 module wrapper of the [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm) plugin
+> This library is an Nuxt 4 module wrapper of the [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm) plugin
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 
 ## Quick Setup
 
-1. Add `@zadigetvoltaire/nuxt-gtm` dependency to your project
+1. Add `@saslavik/nuxt-gtm` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D @zadigetvoltaire/nuxt-gtm
+pnpm add -D @saslavik/nuxt-gtm
 
 # Using yarn
-yarn add --dev @zadigetvoltaire/nuxt-gtm
+yarn add --dev @saslavik/nuxt-gtm
 
 # Using npm
-npm install --save-dev @zadigetvoltaire/nuxt-gtm
+npm install --save-dev @saslavik/nuxt-gtm
 ```
 
-2. Add `@zadigetvoltaire/nuxt-gtm` to the `modules` section of `nuxt.config.ts`
+2. Add `@saslavik/nuxt-gtm` to the `modules` section of `nuxt.config.ts`
 
 ```ts
 export default defineNuxtConfig({
   modules: [
-    '@zadigetvoltaire/nuxt-gtm'
+    '@saslavik/nuxt-gtm'
   ],
 })
 ```
@@ -315,14 +307,14 @@ pnpm release
 © Zadig&Voltaire is a registered trademark of ZV FRANCE
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@zadigetvoltaire/nuxt-gtm/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@zadigetvoltaire/nuxt-gtm
+[npm-version-src]: https://img.shields.io/npm/v/@saslavik/nuxt-gtm/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@saslavik/nuxt-gtm
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@zadigetvoltaire/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/@zadigetvoltaire/nuxt-gtm
+[npm-downloads-src]: https://img.shields.io/npm/dm/@saslavik/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@saslavik/nuxt-gtm
 
-[license-src]: https://img.shields.io/npm/l/@zadigetvoltaire/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@zadigetvoltaire/nuxt-gtm
+[license-src]: https://img.shields.io/npm/l/@saslavik/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@saslavik/nuxt-gtm
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
